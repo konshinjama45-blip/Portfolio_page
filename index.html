@@ -3,134 +3,178 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <title>Koshin's Portfolio</title>
     <meta
       name="description"
-      content="Koshin Jama - Web developer learning HTML, CSS, JavaScript, and more."
+      content="This is a webpage about Koshin's portfolio"
     />
-    <meta
-      name="keywords"
-      content="Koshin Jama, Web Developer, HTML, CSS, JavaScript, Portfolio, Stockholm"
-    />
-    <meta name="author" content="Koshin Jama" />
-    <meta
-      name="tags"
-      content="HTML, CSS, JavaScript, REACT, Angular, NODEJS...."
-    />
-
-    <!-- Open graph / social media meta tags -->
-
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Koshin Jama | Portfolio Page" />
-    <meta
-      property="og:description"
-      content="Koshin Jama - Web developer learning HTML, CSS, JavaScript, and more."
-    />
-    <meta
-      property="og:image"
-      content="https://images.pexels.com/photos/16509323/pexels-photo-16509323.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-    />
-    <meta property="og:url" content="http://127.0.0.1:5500/index.html" />
-
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Koshin Jama | Portfolio Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
   </head>
   <body>
-    <!-- Top Section - header -->
+    <!-- Header Section -->
     <header>
-      <h1><a href="#">Koshin Jama</a></h1>
+      <h1>Koshin's Portfolio</h1>
+      <p>
+        Welcome! I'm Koshin, a student passionate about building interactive and
+        user-friendly websites.
+      </p>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div></div>
     </header>
-    <!-- main Section - Main -->
-    <main>
-      <section id="home">
-        <!-- Hero Section -->
-        <h2>Hello, I am Koshin Jama!</h2>
-        <img
-          width="300px"
-          height="300px"
-          src="https://images.pexels.com/photos/16509323/pexels-photo-16509323.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-          alt="Koshin Jama Profile Picture"
-        />
-      </section>
-      <section id="about">
-        <h2>About me</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil,
-          molestias. Sit, eum consequuntur, consequatur possimus exercitationem
-          illo ratione facilis quae dicta labore pariatur, facere dolorum vitae
-          modi! Et sunt expedita quis dolor sequi error accusamus quibusdam in,
-          perspiciatis harum voluptas?
-        </p>
-      </section>
-      <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-          <h3>Sushi Resturang website</h3>
-          <p>
-            A website for a sushi restaurant built with HTML, CSS, and
-            JavaScript.
-          </p>
-          <h3
-        </div>
-      </section>
 
-      <!-- Tech Glossary -->
-      <section>
-        <h2>Tech Glossary</h2>
-        <dl>
-          <dt>HTML</dt>
-          <dd>The standard markup language for creating webpages.</dd>
+    <!-- Image -->
+    <section>
+      <h2>My Photo</h2>
+      <img
+        src="https://thumbs.dreamstime.com/b/smiling-black-man-4725389.jpg"
+        alt="Portrait of Koshin"
+        width="200"
+      />
+    </section>
 
-          <dt>CSS</dt>
-          <dd>
-            A stylesheet language used to control the layout and design of web
-            pages.
-          </dd>
+    <!-- Hobbies Section -->
+    <section>
+      <section id ="about"></section>
+      <h2>My favorite movies</h2>
+      <ol>
+        <li>Inception</li>
+        <li>The Dark Knight</li>
+        <li>Interstellar</li>
+      </ol>
+    </section>
 
-          <dt>JavaScript</dt>
-          <dd>A programming language used to add interactivity to websites.</dd>
-        </dl>
-      </section>
+    <!-- Favourite Foods Section -->
+    <section>
+      <h2>My Favourite Foods</h2>
+      <ul>
+        <li>Pizza</li>
+        <li>Sushi</li>
+        <li>Ice Cream</li>
+      </ul>
+    </section>
 
-      <!-- Skills Table -->
-      <section>
-        <h2>My Skills</h2>
-        <table border="1">
-          <thead>
-            <tr>
-              <th>Skill</th>
-              <th>Experience Level</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>HTML</td>
-              <td>Intermediate</td>
-            </tr>
-            <tr>
-              <td>CSS</td>
-              <td>Intermediate</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>Beginner</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+    <!-- Tech Glossary -->
+    <section>
+      <h2>Tech Glossary</h2>
+      <dl>
+        <dt>HTML</dt>
+        <dd>The standard markup language for creating webpages.</dd>
 
-      <section id="contact"></section>
-    </main>
-    <!-- Footer Section - footer -->
-    <footer></footer>
+        <dt>CSS</dt>
+        <dd>
+          A stylesheet language used to control the layout and design of web
+          pages.
+        </dd>
+
+        <dt>JavaScript</dt>
+        <dd>A programming language used to add interactivity to websites.</dd>
+      </dl>
+    </section>
+
+    <!-- Skills Table -->
+    <section>
+      <h2>My Skills</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Experience Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+<section id="contact">
+      <h2>Contact Me</h2>
+    <form>
+      <fieldset>
+        <legend>Contact Form</legend>
+
+        <form action="#" method="post">
+          <h2>Contact Me</h2>
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea
+        ><br /><br />
+
+        <input type="submit" value="Submit" />
+
+      </fieldset>
+
+    </section>
+
+
+      <fieldset>
+        <legend>Work requested</legend>
+        <input type="checkbox" id="webdev" name="service" value="webdev" />
+        <label for="webdev">Web Development</label><br />
+        <input type="checkbox" id="graphic" name="service" value="graphic" />
+        <label for="graphic"> Graphic Designer</label><br />
+        <label for="message">Other:</label><br />
+        <textarea id="message" name="Other" rows="4" required></textarea><br /><br />
+      
+        
+      </fieldset>
+    <fieldset>
+      <legend> Code Languages Used?</legend>
+      <select name="languages" id="languages">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Budget and Timeline</legend>
+      <label for="budget">Budget:</label>
+      <input type="text" id="budget" name="budget" required /><br /><br />
+
+    <label for="timeline">Timeline:</label>
+    <input type="text" id="timeline" name="timeline" required /><br /><br />
+    </fieldset>
+
+    <fieldset> 
+      <legend>Contact details</legend>
+    </fieldset>
+
+  </form>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Koshin's Portfolio</p>
+      <p>
+        Check out my favorite website:
+        <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+      </p>
+    </footer>
   </body>
 </html>
