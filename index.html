@@ -28,145 +28,181 @@
       </nav>
     </header>
 
-    <!-- Image -->
-    <section>
-      <h2>My Photo</h2>
-      <img
-        src="https://thumbs.dreamstime.com/b/smiling-black-man-4725389.jpg"
-        alt="Portrait of Koshin"
-        width="200"
-      />
-    </section>
+    <!-- Main Content -->
+    <main>
+      <!-- Image -->
+      <section>
+        <h2>My Photo</h2>
+        <img
+          src="https://thumbs.dreamstime.com/b/smiling-black-man-4725389.jpg"
+          alt="Portrait of Koshin"
+          width="200"
+        />
+      </section>
 
-    <!-- Hobbies Section -->
-    <section>
-      <section id ="about"></section>
-      <h2>My favorite movies</h2>
-      <ol>
-        <li>Inception</li>
-        <li>The Dark Knight</li>
-        <li>Interstellar</li>
-      </ol>
-    </section>
+      <!-- Favorite Movies -->
+      <section id="about">
+        <h2>My Favorite Movies</h2>
+        <ol>
+          <li>Inception</li>
+          <li>The Dark Knight</li>
+          <li>Interstellar</li>
+        </ol>
+      </section>
 
-    <!-- Favourite Foods Section -->
-    <section>
-      <h2>My Favourite Foods</h2>
-      <ul>
-        <li>Pizza</li>
-        <li>Sushi</li>
-        <li>Ice Cream</li>
-      </ul>
-    </section>
+      <!-- Favorite Foods -->
+      <section>
+        <h2>My Favorite Foods</h2>
+        <ul>
+          <li>Pizza</li>
+          <li>Sushi</li>
+          <li>Ice Cream</li>
+        </ul>
+      </section>
 
-    <!-- Tech Glossary -->
-    <section>
-      <h2>Tech Glossary</h2>
-      <dl>
-        <dt>HTML</dt>
-        <dd>The standard markup language for creating webpages.</dd>
+      <!-- Tech Glossary -->
+      <section>
+        <h2>Tech Glossary</h2>
+        <dl>
+          <dt>HTML</dt>
+          <dd>The standard markup language for creating webpages.</dd>
 
-        <dt>CSS</dt>
-        <dd>
-          A stylesheet language used to control the layout and design of web
-          pages.
-        </dd>
+          <dt>CSS</dt>
+          <dd>
+            A stylesheet language used to control the layout and design of web
+            pages.
+          </dd>
 
-        <dt>JavaScript</dt>
-        <dd>A programming language used to add interactivity to websites.</dd>
-      </dl>
-    </section>
+          <dt>JavaScript</dt>
+          <dd>A programming language used to add interactivity to websites.</dd>
+        </dl>
+      </section>
 
-    <!-- Skills Table -->
-    <section>
-      <h2>My Skills</h2>
-      <table border="1">
-        <thead>
-          <tr>
-            <th>Skill</th>
-            <th>Experience Level</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML</td>
-            <td>Intermediate</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>Intermediate</td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td>Beginner</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+      <!-- Skills Table -->
+      <section>
+        <h2>My Skills</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Skill</th>
+              <th>Experience Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>Intermediate</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Intermediate</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Beginner</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-
-<section id="contact">
-      <h2>Contact Me</h2>
-    <form>
-      <fieldset>
-        <legend>Contact Form</legend>
-
+      <!-- Contact Form -->
+      <section id="contact">
+        <h2>Contact Me</h2>
         <form action="#" method="post">
-          <h2>Contact Me</h2>
-          <label for="name">Name:</label><br />
-          <input type="text" id="name" name="name" required /><br /><br />
+          <fieldset>
+            <legend>Contact Form</legend>
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required /><br /><br />
 
-        <label for="email">Email:</label><br />
-        <input type="email" id="email" name="email" required /><br /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br /><br />
 
-        <label for="message">Message:</label><br />
-        <textarea id="message" name="message" rows="4" required></textarea
-        ><br /><br />
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="4" required></textarea
+            ><br /><br />
 
-        <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" />
+          </fieldset>
 
-      </fieldset>
+          <fieldset>
+            <legend>Work Requested</legend>
+            <input type="checkbox" id="webdev" name="service" value="webdev" />
+            <label for="webdev">Web Development</label><br />
 
-    </section>
+            <input
+              type="checkbox"
+              id="graphic"
+              name="service"
+              value="graphic"
+            />
+            <label for="graphic">Graphic Design</label><br />
 
+            <label for="other">Other:</label><br />
+            <textarea id="other" name="other" rows="2"></textarea>
+          </fieldset>
 
-      <fieldset>
-        <legend>Work requested</legend>
-        <input type="checkbox" id="webdev" name="service" value="webdev" />
-        <label for="webdev">Web Development</label><br />
-        <input type="checkbox" id="graphic" name="service" value="graphic" />
-        <label for="graphic"> Graphic Designer</label><br />
-        <label for="message">Other:</label><br />
-        <textarea id="message" name="Other" rows="4" required></textarea><br /><br />
-      
-        
-      </fieldset>
-    <fieldset>
-      <legend> Code Languages Used?</legend>
-      <select name="languages" id="languages">
-        <option value="html">HTML</option>
-        <option value="css">CSS</option>
-        <option value="javascript">JavaScript</option>
-        <option value="python">Python</option>
-        <option value="java">Java</option>
+          <fieldset>
+            <legend>Code Languages Used?</legend>
+            <select name="languages" id="languages">
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="javascript">JavaScript</option>
+              <option value="python">Python</option>
+              <option value="java">Java</option>
+            </select>
+          </fieldset>
 
-      </select>
-    </fieldset>
+          <fieldset>
+            <legend>Budget and Timeline</legend>
+            <label for="budget">Budget:</label>
+            <input type="text" id="budget" name="budget" required /><br /><br />
 
-    <fieldset>
-      <legend>Budget and Timeline</legend>
-      <label for="budget">Budget:</label>
-      <input type="text" id="budget" name="budget" required /><br /><br />
+            <label for="timeline">Timeline:</label>
+            <input
+              type="text"
+              id="timeline"
+              name="timeline"
+              required
+            /><br /><br />
+          </fieldset>
+        </form>
+      </section>
 
-    <label for="timeline">Timeline:</label>
-    <input type="text" id="timeline" name="timeline" required /><br /><br />
-    </fieldset>
+      <!-- Media Section -->
+      <section>
+        <h2>Media</h2>
+        <p>Here’s an audio sample I like:</p>
+        <audio controls>
+          <source
+            src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            type="audio/mpeg"
+          />
+          Your browser does not support the audio element.
+        </audio>
 
-    <fieldset> 
-      <legend>Contact details</legend>
-    </fieldset>
+        <p>Here’s a video I enjoy:</p>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/YoHD9XEInc0"
+          title="YouTube video player"
+          frameborder="0"
+          allowfullscreen
+        >
+        </iframe>
+      </section>
 
-  </form>
+      <!-- Embedded External Content -->
+      <section>
+        <h2>My Favorite Place</h2>
+        <iframe
+          width="600"
+          height="450"
+          allowfullscreen
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2041.5606352221662!2d17.93741377614567!3d59.22335901949971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f70e02a9fa565%3A0x241691da9bfed94a!2sNTI%20Gymnasiet%20S%C3%B6dert%C3%B6rn!5e0!3m2!1sen!2sse!4v1758876909459!5m2!1sen!2sse"
+        ></iframe>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer>
